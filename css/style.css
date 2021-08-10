@@ -1,0 +1,75 @@
+/* google font */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+/* font-family: 'Poppins', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+h4.sub-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #562EFF;
+}
+
+
+/* common css end */
+
+
+/* navigation part start */
+
+#navigation {
+    background: #562EFF;
+}
+
+#navigation .navbar-brand span {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#navigation ul li a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+
+/* navigation part end */
+
+
+/* top player part start */
+
+#top-player .top-player-name {
+    font-weight: 600;
+    font-size: 18px;
+    color: #000;
+}
+
+
+/* top player part end */
